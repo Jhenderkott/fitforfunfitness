@@ -1,0 +1,21 @@
+body {
+    background-color: greenyellow
+}
+
+.header {
+    padding: 20px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
+}
+
+.sidebox  {background-color: #9bdaef;
+padding: 20px;
+font-size: 13px;
+margin: 0 0 15px 0;
+}
+
+.pic1 {width: 50%;
+    float: left;
+}
