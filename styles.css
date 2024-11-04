@@ -1,5 +1,7 @@
 body {
-    background-color: greenyellow
+    background-color: greenyellow;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .header {
@@ -9,27 +11,56 @@ body {
     color: white;
     font-size: 30px;
 }
-
-.sidebox  {background-color: #9bdaef;
-padding: 20px;
-font-size: 13px;
-margin: 0 0 15px 0;
+/* Navigation */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f18e8e;
+    font-size: larger;
 }
 
-.pic1 {width: 50%;
-    float:left;
+li {
+    float: left;
 }
 
-.pic2{width: 30%;
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.sidebox {
+    width: 50%;
+    background-color: #9bdaef;
+    padding: 10px;
+    font-size: 33px;
+    margin: 0 0 15px 0;
+    float:right;
+}
+/* images */
+.pic1 {
+    width: 45%;
+    float: left;
+}
+
+.pic2 {
+    width: 30%;
     height: 50%;
-float:right;
-padding-bottom: 30px;
-}
+    float: right;
+    padding-bottom: 10px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 8px #f07373;
 
+}
+/* class table  */
 table {
     width: 60%;
-    float:left;
-    
+    float: left;
+
 
 }
 
@@ -60,3 +91,32 @@ th,
 td {
     padding: 15px;
 }
+
+/* Contact us  */
+.container {
+    margin: auto;
+    width: 70%;
+    background-color: rgb(215, 240, 250);
+    padding: 15px;
+    border-radius: 5px;
+    
+}
+
+label {
+    display: block;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+input {
+    position: absolute;
+    left: 25%;
+    width: 20%
+}
+
+.submit {
+    width: fit-content;
+    position: initial
+}
+
+
